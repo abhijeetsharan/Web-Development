@@ -1,0 +1,24 @@
+.container{
+    height: 650px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+.box{
+    background-color: aquamarine;
+    width: 330px;
+    height: 330px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    /* box-shadow: 10px 10px black; */
+    /* box-shadow: 10px 10px 50px black; */
+    box-shadow: 10px 10px 5px 10px black;
+}
+#head1{
+    text-shadow: 2px 3px 2px white;
+}

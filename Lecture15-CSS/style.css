@@ -1,0 +1,41 @@
+/* *{
+    margin: 0;
+    padding: 0px;
+} */
+
+h1{
+    background-color: blueviolet;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    border-radius: 4px;
+}
+
+.firstPara{
+    background-color: brown;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    border-radius: 4px;
+    height: 60px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.secondPara{
+    background-color: aqua;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    border-radius: 4px;
+    height: 80px;
+}
+
+.thirdPara{
+    background-color: red;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    border-radius: 4px;
+}

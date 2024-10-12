@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" name="phone" id="phone"><br><br>
+
+        <label for="file1">Resume:</label><br>
+        <input type="file" name="file1" id="file1"><br><br>
+
+        <label for="experience">Experience(year):</label><br>
+        <input type="number" name="experience" id="experience" min="0" max="50"><br><br>
+
+        <fieldset>
+            <legend>Skills</legend>
+
+            <label for="html">HTML</label>
+            <input type="checkbox" name="html" id="html">
+
+            <label for="css">CSS</label>
+            <input type="checkbox" name="css" id="css">
+
+            <label for="javascript">Javascript</label>
+            <input type="checkbox" name="javascript" id="javascript">
+        
+        </fieldset><br>
+
+        <label for="highesteducation">Highest Education:</label><br>
+        <select name="highesteducation" id="highesteducation">
+            <option value="10th">10th</option>
+            <option value="12th">12th</option>
+            <option value="Graduate">Graduate</option>
+            <option value="PostGraduate">Post Graduate</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Availability</legend>
+             
+            <label for="radio1">Full-time: </label>
+            <input type="radio" name="radio" id="radio1">
+
+            <label for="radio2">Part-time: </label>
+            <input type="radio" name="radio" id="radio2">
+
+        </fieldset><br>
+
+
+        <label for="comments">Additional Comments:</label><br>
+        <textarea name="comments" id="comments" rows="5" cols="30"></textarea><br><br>
+
+        <button>Submit</button>
+    
+    </form>
+</body>
+</html>
